@@ -9,3 +9,14 @@ A visual and interactive 2-DOF planar robot arm built with **Streamlit** and **P
 This repository contains all the code needed to study the mathematics, visualization, and implementation of inverse kinematics for a simple 2-link robotic arm.
 
 ---
+
+##  Live Demo  
+Explore the IK solver directly in your browser:
+
+👉 **https://iksolver-app.streamlit.app/**
+
+Features:
+- Move sliders to manually control joint angles  
+- Input desired *(x, y)* and compute joint angles via IK  
+- Realtime 2D visualization of the robot arm  
+- Built-in validation for reachable/unreachable targets
