@@ -20,3 +20,22 @@ Features:
 - Input desired *(x, y)* and compute joint angles via IK  
 - Realtime 2D visualization of the robot arm  
 - Built-in validation for reachable/unreachable targets
+
+---
+
+## 📂 Repository Structure  
+.<br>
+├── iksolver-app.py # Streamlit app (web UI + visualization)<br>
+├── ik_solver.py # Standalone Python IK + CLI + Matplotlib renderer<br>
+├── requirements.txt # Dependencies for local & Streamlit deployment<br>
+├── LICENSE # Project license<br>
+└── README.md # You're reading this :)<br>
+
+---
+
+## Overview
+I've attempted to show FK and solve IK purely geometrically, and avoiding the use of matrices. <br>
+α<sub>1</sub> is defined as +ve CCW from the origin (where link 1 is joined to the surface),  My notation for α<sub>2</sub> is unorthodox though. <br>
+α<sub>2</sub> is defined +ve CW from the global x-axis. Meaning both link angles are universally independent and don't depend on the position of the other.  
+
+  
