@@ -39,11 +39,24 @@ Explore the IK solver directly in your browser:
 I've attempted to show FK and solve IK purely geometrically, and avoiding the use of matrices. <br>
 α<sub>1</sub> is defined as +ve CCW from the origin (where link 1 is joined to the surface),  My notation for α<sub>2</sub> is unorthodox though. <br>
 α<sub>2</sub> is defined +ve CW from the global x-axis. Meaning both link angles are universally independent and don't depend on the position of the other. <br>
-All my derivations are in the calculations folder so you can walk through my steps to the solution.  
+All my derivations and calculations are in the docs folder so you can walk through my steps to the solution.  
 
 ---
 
 ### Using the Local Engine
+
+Clone the repo<br>
+```
+git clone https://github.com/Draycole/iksolver.git <br>
+cd iksolver
+```
+
+Install dependencies<br>
+```
+pip install streamlit
+pip install matplotlib
+pip install numpy
+```
 
 
   
