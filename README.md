@@ -24,7 +24,7 @@ Explore the IK solver directly in your browser:
 
 ---
 
-### 📂 Repository Structure  
+### Repository Structure  
 .<br>
 ```
 ├── iksolver-app.py             Streamlit app (web UI + visualization)<br>
