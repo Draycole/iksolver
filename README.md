@@ -27,10 +27,10 @@ Explore the IK solver directly in your browser:
 ### Repository Structure  
 .<br>
 ```
-├── iksolver-app.py             Streamlit app (web UI + visualization)<br>
-├── ik_solver.py                Standalone Python IK + CLI + Matplotlib renderer<br>
-├── requirements.txt            Dependencies for local & Streamlit deployment<br>
-├── LICENSE                     Project license<br>
+├── iksolver-app.py             Streamlit app (web UI + visualization)
+├── ik_solver.py                Standalone Python IK + CLI + Matplotlib renderer
+├── requirements.txt            Dependencies for local & Streamlit deployment
+├── LICENSE                     Project license
 └── README.md                   You're reading this :)
 ```
 ---
@@ -47,7 +47,7 @@ All my derivations and calculations are in the docs folder so you can walk throu
 
 Clone the repo<br>
 ```
-git clone https://github.com/Draycole/iksolver.git <br>
+git clone https://github.com/Draycole/iksolver.git 
 cd iksolver
 ```
 
