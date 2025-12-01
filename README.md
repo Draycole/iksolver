@@ -58,5 +58,8 @@ pip install matplotlib
 pip install numpy
 ```
 
+---
 
+### License 
+This project is licensed under the MIT License.
   
