@@ -15,12 +15,14 @@ Explore the IK solver directly in your browser:
 (You may have to click the button to wake the app up if the webpage has been inactive for a while)  
 
 ---
+![ik solver screen recording](<screenrecording gif.gif>)
 
 ### Features:
 - Move sliders to manually control joint angles  
 - Input desired (x, y) and compute joint angles via IK  
 - Realtime 2D visualization of the robot arm  
 - Built-in validation for reachable/unreachable targets
+  
 
 ---
 
