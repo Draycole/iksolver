@@ -6,6 +6,8 @@ This project is a visual and interactive 2-DOF planar robot arm built with **Str
 This repository contains all the code needed to study the mathematics, visualization, and implementation of inverse kinematics for a simple 2-link robotic arm.
 
 ---
+![ik solver screen recording](<screenrecording gif.gif>)
+---
 
 ###  Live Demo  
 Explore the IK solver directly in your browser:
@@ -15,7 +17,6 @@ Explore the IK solver directly in your browser:
 (You may have to click the button to wake the app up if the webpage has been inactive for a while)  
 
 ---
-![ik solver screen recording](<screenrecording gif.gif>)
 
 ### Features:
 - Move sliders to manually control joint angles  
