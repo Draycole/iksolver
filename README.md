@@ -30,6 +30,19 @@ Explore the IK solver directly in your browser:
 ### Repository Structure  
 .<br>
 ```
+└── docs                        Documentation
+    └── IK_Derivation.pdf       PDF file containing derivation calculations
+    └── figures                 Associated diagrams
+      └── alpha1                  
+      └── alpha2                  
+      └── problem setup                
+└── iksolver-local              Local version - runs offline
+    └── README.md                   
+    └── ik_cli.py               CLI script to output α<sub>1</sub> and α<sub>2</sub>    
+    └── screenshots             Screenshots      
+      └── base_position            
+      └── pose1                  
+      └── pose2                  
 ├── iksolver-app.py             Streamlit app (web UI + visualization)
 ├── ik_solver.py                Standalone Python IK + CLI + Matplotlib renderer
 ├── requirements.txt            Dependencies for local & Streamlit deployment
