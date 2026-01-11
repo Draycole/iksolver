@@ -38,7 +38,8 @@ Explore the IK solver directly in your browser:
       └── problem setup                
 └── iksolver-local              Local version - runs offline
     └── README.md                   
-    └── ik_cli.py               CLI script to output α<sub>1</sub> and α<sub>2</sub>    
+    └── ik_cli.py               CLI script to output α<sub>1</sub> and α<sub>2</sub>
+    └── ik_graphical.py         GUI script with matplotlib for angle verification locally.
     └── screenshots             Screenshots      
       └── base_position            
       └── pose1                  
