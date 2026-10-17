@@ -6,7 +6,7 @@ This project is a visual and interactive 2-DOF planar robot arm built with **Str
 This repository contains all the code needed to study the mathematics, visualization, and implementation of inverse kinematics for a simple 2-link robotic arm.
 
 ---
-![ik solver screen recording](<screenrecording gif.gif>)
+![ik solver screen recording](<./docs/figures/screenrec_demo.gif>)
 ---
 
 ###  Live Demo  
@@ -43,9 +43,14 @@ Explore the IK solver directly in your browser:
     └── screenshots             Screenshots      
       └── base_position            
       └── pose1                  
-      └── pose2                  
+      └── pose2    
+└── results                     Assets from verification script
+    └── fig4.png                    
+    └── fig5.png
+    └── results.json
 ├── iksolver-app.py             Streamlit app (web UI + visualization)
 ├── ik_solver.py                Standalone Python IK + CLI + Matplotlib renderer
+├── ik_verification.py          Verification script 
 ├── requirements.txt            Dependencies for local & Streamlit deployment
 ├── LICENSE                     Project license
 └── README.md                   You're reading this :)
